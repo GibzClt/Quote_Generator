@@ -1,9 +1,18 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 
-function Quote(){
+function Quote({quote, bg}){
   return (
-    <div className="Quote">
-      <p>He is no fool who loses what he cannot keep to gain what he cannot lose</p>
+    <div
+      style={{
+        color : bg,
+        transition : "color 3s ease"
+      }}
+      className="Quote"
+    >
+      <FontAwesomeIcon icon={faQuoteLeft} />
+      <span id="text" >{quote}</span>
     </div>
   )
 }

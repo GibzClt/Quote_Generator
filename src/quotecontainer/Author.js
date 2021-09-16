@@ -1,9 +1,9 @@
 import React from "react";
 
-function Author(){
+function Author({author, bg}){
   return (
-    <div className="Author">
-      <p>Jim Elliot</p>
+    <div style={{color : bg}} className="Author">
+      <p id="author">{`- ${author}`}</p>
     </div>
   )
 }
