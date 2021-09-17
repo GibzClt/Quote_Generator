@@ -10,7 +10,8 @@ function Publish({getNew, bg}){
       <a
         style={{
           width : "10%",
-          height : "100%"
+          height : "100%",
+          marginRight : "1%"
         }}
         href="https://twitter.com/intent/tweet/"
         id="tweet-quote"
@@ -20,7 +21,9 @@ function Publish({getNew, bg}){
           transition : "background 3s ease",
           height : "100%",
           width : "100%",
-          fontSize : "large"
+          fontSize : "large",
+          cursor : "pointer",
+          border : "none",
         }}
       ><FontAwesomeIcon icon={faTwitter}/>
       </button>
