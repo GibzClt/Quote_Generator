@@ -11,8 +11,8 @@
   },
   {
     "id" : "3",
-    "quote" : "Till men have faith in Christ, their best services are but glorious sins.",
-    "author" : "Thomas Brooks"
+    "quote" : "For what does it profit a man to gain the whole world, and forfeit his soul?",
+    "author" : "Jesus Christ"
   },
   {
     "id" : "4",
@@ -28,5 +28,30 @@
     "id" : "6",
     "quote" : "He is not fool who loses what he cannot keep to gain what he cannot lose",
     "author" : "Jim Elliot"
+  },
+  {
+    "id" : "7",
+    "quote" : "Is any man skillful enough to have fashioned himself?",
+    "author" : "Saint Augustine of Hippo"
+  },
+  {
+    "id" : "8",
+    "quote" : "Do all the good you can, By all the means you can, In all the ways you can, In all the places you can, At all the times you can, To all the people you can, As long as ever you can.",
+    "author" : "John Wesley"
+  },
+  {
+    "id" : "9",
+    "quote" : "By perseverance the snail reached the ark.",
+    "author" : "CH Spurgeon"
+  },
+  {
+    "id" : "10",
+    "quote" : "What one generation tolerates, the next generation will embrace.",
+    "author" : "John Wesley"
+  },
+  {
+    "id" : "11",
+    "quote" : "Anxiety does not empty tomorrow of its sorrows, but only empties today of its strength.",
+    "author" : "CH Spurgeon"
   }
 ]

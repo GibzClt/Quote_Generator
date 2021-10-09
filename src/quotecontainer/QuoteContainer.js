@@ -10,7 +10,7 @@ function QuoteContainer(){
   const[bgColor, setBgColor] = useState("#dddddd")
   
   const handleClick=()=>{
-    setId(id + 1);
+    setId(Math.floor(Math.random() * quotes.length));
     console.log("id is", id)
   }
 
