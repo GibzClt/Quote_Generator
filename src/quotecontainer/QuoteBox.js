@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Quote from "./Quote";
 import Author from "./Author";
 import Publish from "./Publish";
@@ -9,7 +9,7 @@ function QuoteBox({quote, author, getNew, bg}){
     <div  className="QuoteBox">
       <Quote bg={bg} quote={quote} />
       <Author bg={bg} author={author} />
-      <Publish bg={bg} getNew={getNew} />
+      <Publish bg={bg} getNew={getNew} quote={quote} author={author} />
     </div>
   )
 }

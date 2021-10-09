@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faTumblr } from "@fortawesome/free-brands-svg-icons"
 
 
-function Publish({getNew, bg}){
+function Publish({getNew, bg, quote, author}){
   return (
     <div className="Publish" >
       <a
@@ -13,7 +13,7 @@ function Publish({getNew, bg}){
           height : "100%",
           marginRight : "1%"
         }}
-        href="https://twitter.com/intent/tweet/"
+        href={"https://twitter.com/intent/tweet?&text="+ quote + "%0A-" + author} 
         id="tweet-quote"
       ><button
         style={{
@@ -28,6 +28,14 @@ function Publish({getNew, bg}){
       ><FontAwesomeIcon icon={faTwitter}/>
       </button>
       </a>
+      <a
+        style={{
+          width : "100%",
+          height : "100%",
+          marginRight : "1%"
+        }}
+        href="https://www.tumblr.com/"
+      >
         <button
           className="btn"
           style={{
@@ -36,6 +44,7 @@ function Publish({getNew, bg}){
           }}
         ><FontAwesomeIcon icon={faTumblr}/>
         </button>
+      </a>
         <button
           className="btn"
           id="new-quote"

@@ -1,11 +1,10 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import QuoteBox from "./QuoteBox";
 import "./QuoteContainer.css";
 import quotes from "../common/quotes.json";
-import { useState, useEffect } from "react/cjs/react.development";
 
 function QuoteContainer(){
-  const [id, setId] = useState(0);
+  const [id, setId] = useState(Math.floor(Math.random() * quotes.length));
   const [quote, setQuote] = useState(quotes[id]);
   const[bgColor, setBgColor] = useState("#dddddd")
   
